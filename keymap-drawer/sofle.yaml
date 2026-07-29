@@ -24,8 +24,8 @@ layers:
   - I
   - O
   - P
-  - ''''
-  - $$mdi:apple-keyboard-shift$$
+  - \
+  - CAPSLOCK
   - A
   - S
   - D
@@ -36,8 +36,8 @@ layers:
   - K
   - L
   - ;
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - ''''
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -50,17 +50,17 @@ layers:
   - ','
   - .
   - /
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LWIN
-  - {t: ↹, h: '$$mdi:apple-keyboard-control$$'}
+  - RSHIFT
+  - LEFT CONTROL
+  - LEFT GUI
+  - LEFT ALT
+  - ↹
   - {t: ⏎, h: LOW}
-  - {t: ␣, h: RAI}
-  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
-  - RWIN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BACKSPACE, h: RAI}
+  - ␣
+  - RIGHT ALT
+  - RIGHT GUI
+  - RIGHT CONTROL
   LOW:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
