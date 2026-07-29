@@ -84,8 +84,8 @@ layers:
   - Home
   - ↑
   - End
-  - Sft+[
-  - {t: ▽, type: trans}
+  - '-'
+  - '='
   - Reset
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
@@ -96,8 +96,8 @@ layers:
   - ←
   - ↓
   - →
-  - Sft+]
-  - {t: ▽, type: trans}
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
@@ -107,11 +107,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
