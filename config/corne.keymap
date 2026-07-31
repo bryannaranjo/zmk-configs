@@ -44,10 +44,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&studio_unlock  &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3    &trans  &kp HOME  &kp UP                &kp END                &kp MINUS         &kp EQUAL
-&sys_reset      &kp LCTRL        &kp LSHFT        &kp LALT         &kp LGUI         &trans          &trans  &kp LEFT  &kp DOWN              &kp RIGHT              &kp LEFT_BRACE    &kp RIGHT_BRACE
-&trans          &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans          &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-                                                  &trans           &trans           &trans          &mo 3   &trans    &trans
+&studio_unlock  &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3    &kp INS        &kp HOME  &kp UP                &kp END                &kp MINUS         &kp EQUAL
+&sys_reset      &kp LCTRL        &kp LSHFT        &kp LALT         &kp LGUI         &trans          &kp PAGE_UP    &kp LEFT  &kp DOWN              &kp RIGHT              &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans          &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans          &kp PAGE_DOWN  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+                                                  &trans           &trans           &trans          &mo 3          &trans    &trans
             >;
         };
 
