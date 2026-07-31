@@ -44,10 +44,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&studio_unlock  &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3    &trans  &kp HOME  &kp UP    &kp END    &kp LS(LBKT)  &trans
-&sys_reset      &kp LCTRL        &kp LSHFT        &kp LALT         &kp LGUI         &trans          &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LS(RBKT)  &trans
-&trans          &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans          &trans  &kp LPAR  &kp RPAR  &kp LBKT   &kp RBKT      &trans
-                                                  &trans           &trans           &trans          &trans  &trans    &trans
+&studio_unlock  &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3    &trans  &kp HOME  &kp UP                &kp END                &kp MINUS         &kp EQUAL
+&sys_reset      &kp LCTRL        &kp LSHFT        &kp LALT         &kp LGUI         &trans          &trans  &kp LEFT  &kp DOWN              &kp RIGHT              &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans          &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans          &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+                                                  &trans           &trans           &trans          &mo 3   &trans    &trans
             >;
         };
 
@@ -61,10 +61,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp GRAVE  &kp PRCNT  &kp PIPE       &kp AMPS       &kp EQUAL      &trans   &kp N7  &kp N8  &kp N9  &kp F1  &kp F2
-&trans  &kp EXCL   &kp AT     &kp HASH       &kp DLLR       &kp LS(DOT)    &trans   &kp N4  &kp N5  &kp N6  &kp F3  &kp F4
-&trans  &kp CARET  &kp ASTRK  &kp LS(MINUS)  &kp LS(EQUAL)  &kp MINUS      &trans   &kp N1  &kp N2  &kp N3  &kp F5  &kp F6
-                              &trans         &trans         &trans         &kp RET  &kp N0  &trans
+&kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp N5           &kp F7   &kp N7  &kp N8      &kp N9  &kp F1  &kp F2
+&trans          &kp NUMBER_6  &kp N7        &kp N8            &kp N9             &kp N0           &kp F8   &kp N4  &kp N5      &kp N6  &kp F3  &kp F4
+&kp LEFT_SHIFT  &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp F9   &kp N1  &kp N2      &kp N3  &kp F5  &kp F6
+                                            &trans            &kp LEFT_ALT       &mo 3            &kp RET  &kp N0  &kp KP_DOT
             >;
         };
 
