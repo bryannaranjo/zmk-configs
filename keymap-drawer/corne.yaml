@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - ⌦
-  - {t: ↹, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ↹, h: LEFT CONTROL}
   - A
   - S
   - D
@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '''', h: RIGHT CONTROL}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -36,12 +36,12 @@ layers:
   - ','
   - .
   - /
-  - \
+  - {t: \, h: RSHIFT}
   - LWIN
-  - {t: ↹, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ↹, h: LEFT ALT}
   - {t: ⏎, h: LOW}
-  - {t: ␣, h: RAI}
-  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: BACKSPACE, h: RAI}
+  - {t: ␣, h: RIGHT ALT}
   - RWIN
   LOW:
   - '&studio_unlock'
