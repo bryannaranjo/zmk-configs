@@ -14,6 +14,15 @@
 &led_strip { chain-length = <27>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Colemak {
+            bindings = <&tog 4>;
+            key-positions = <0 11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -71,7 +80,7 @@
         extra_1 { status = "reserved"; };
 
         Colemak {
-            display-name = "BAS";
+            display-name = "Colemak";
             bindings = <
 &kp ESC               &kp Q  &kp W  &kp F     &kp P             &kp B        &kp J            &kp L                &kp U      &kp Y       &kp SEMICOLON  &kp DEL
 &mt LEFT_CONTROL TAB  &kp A  &kp R  &kp S     &lt 2 T           &kp G        &kp M            &kp N                &kp E      &kp I       &kp O          &mt RIGHT_CONTROL SQT
