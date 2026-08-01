@@ -43,92 +43,6 @@ layers:
   - {t: BACKSPACE, h: RAI}
   - {t: ␣, h: RIGHT ALT}
   - RWIN
-  LOW:
-  - '&studio_unlock'
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - Insert
-  - Home
-  - ↑
-  - End
-  - '-'
-  - '='
-  - Reset
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
-  - PAGE UP
-  - ←
-  - ↓
-  - →
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
-  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
-  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
-  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
-  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
-  - PAGE DOWN
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - '['
-  - ']'
-  - RGB COLOR HSB(297,86,35)
-  - {t: ▽, type: trans}
-  - {type: held}
-  - Colemak
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  RAI:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - F7
-  - '7'
-  - '8'
-  - '9'
-  - F1
-  - F2
-  - {t: ▽, type: trans}
-  - '6'
-  - '7'
-  - '8'
-  - {t: '9', type: held}
-  - '0'
-  - F8
-  - '4'
-  - '5'
-  - '6'
-  - F3
-  - F4
-  - LEFT SHIFT
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - F9
-  - '1'
-  - '2'
-  - '3'
-  - F5
-  - F6
-  - {t: ▽, type: trans}
-  - LEFT ALT
-  - Colemak
-  - ⏎
-  - '0'
-  - KP DOT
   Colemak:
   - Esc
   - Q
@@ -168,7 +82,139 @@ layers:
   - {t: \, h: RSHIFT}
   - LWIN
   - {t: ↹, h: LEFT ALT}
-  - {t: ⏎, h: LOW, type: held}
-  - {t: BACKSPACE, h: RAI, type: held}
+  - {t: ⏎, h: LOW}
+  - {t: BACKSPACE, h: RAI}
   - {t: ␣, h: RIGHT ALT}
   - RWIN
+  LOW:
+  - '&studio_unlock'
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - Insert
+  - Home
+  - ↑
+  - End
+  - '-'
+  - '='
+  - Reset
+  - LEFT GUI
+  - LEFT ALT
+  - LEFT CONTROL
+  - LSHIFT
+  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - PAGE UP
+  - ←
+  - ↓
+  - →
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
+  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - (
+  - )
+  - '['
+  - ']'
+  - RGB COLOR HSB(297,86,35)
+  - {t: ▽, type: trans}
+  - {type: held}
+  - BAS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  RAI:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - F7
+  - '7'
+  - '8'
+  - '9'
+  - F1
+  - F2
+  - Caps Lock
+  - '6'
+  - '7'
+  - '8'
+  - {t: '9', type: held}
+  - '0'
+  - F8
+  - '4'
+  - '5'
+  - '6'
+  - F3
+  - F4
+  - LEFT SHIFT
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - F9
+  - '1'
+  - '2'
+  - '3'
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - BAS
+  - ⏎
+  - '0'
+  - KP DOT
+  Media:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 11]
+  k: {t: Colemak, h: toggle}
