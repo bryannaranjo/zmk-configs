@@ -50,82 +50,125 @@ layers:
   - BT 2
   - BT 3
   - BT 4
-  - {t: ▽, type: trans}
+  - Insert
   - Home
   - ↑
   - End
-  - Sft+[
-  - {t: ▽, type: trans}
+  - '-'
+  - '='
   - Reset
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - PAGE UP
   - ←
   - ↓
   - →
-  - Sft+]
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
   - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
   - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - (
   - )
   - '['
   - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB COLOR HSB(297,86,35)
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - Colemak
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   RAI:
-  - {t: ▽, type: trans}
   - '`'
-  - '%'
-  - '|'
-  - AMPS
-  - '='
-  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - F7
   - '7'
   - '8'
   - '9'
   - F1
   - F2
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - {t: $, type: held}
-  - Sft+.
-  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - {t: '9', type: held}
+  - '0'
+  - F8
   - '4'
   - '5'
   - '6'
   - F3
   - F4
-  - {t: ▽, type: trans}
-  - ^
-  - '*'
-  - Sft+-
-  - Sft+=
+  - LEFT SHIFT
   - '-'
-  - {t: ▽, type: trans}
+  - '='
+  - '['
+  - ']'
+  - \
+  - F9
   - '1'
   - '2'
   - '3'
   - F5
   - F6
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - Colemak
   - ⏎
   - '0'
-  - {t: ▽, type: trans}
+  - KP DOT
+  Colemak:
+  - Esc
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - ⌦
+  - {t: ↹, h: LEFT CONTROL}
+  - A
+  - R
+  - S
+  - {t: T, h: RAI}
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - {t: '''', h: RIGHT CONTROL}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - {t: \, h: RSHIFT}
+  - LWIN
+  - {t: ↹, h: LEFT ALT}
+  - {t: ⏎, h: LOW, type: held}
+  - {t: BACKSPACE, h: RAI, type: held}
+  - {t: ␣, h: RIGHT ALT}
+  - RWIN

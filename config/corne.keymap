@@ -70,8 +70,16 @@
 
         extra_1 { status = "reserved"; };
 
-        extra_2 { status = "reserved"; };
+        Colemak {
+            display-name = "BAS";
+            bindings = <
+&kp ESC               &kp Q  &kp W  &kp F     &kp P             &kp B        &kp J            &kp L                &kp U      &kp Y       &kp SEMICOLON  &kp DEL
+&mt LEFT_CONTROL TAB  &kp A  &kp R  &kp S     &lt 2 T           &kp G        &kp M            &kp N                &kp E      &kp I       &kp O          &mt RIGHT_CONTROL SQT
+&kp LSHFT             &kp Z  &kp X  &kp C     &kp D             &kp V        &kp K            &kp H                &kp COMMA  &kp PERIOD  &kp SLASH      &mt RSHIFT BACKSLASH
+                                    &kp LWIN  &mt LEFT_ALT TAB  &lt 1 RET    &lt 2 BACKSPACE  &mt RIGHT_ALT SPACE  &kp RWIN
+            >;
 
-        extra_3 { status = "reserved"; };
+            label = "Colemak";
+        };
     };
 };
