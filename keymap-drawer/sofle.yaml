@@ -51,6 +51,67 @@ layers:
   - .
   - /
   - RSHIFT
+  - $$mdi:apple-keyboard-control$$
+  - LEFT GUI
+  - LEFT ALT
+  - ↹
+  - {t: ⏎, h: LOW}
+  - {t: BACKSPACE, h: RAI}
+  - ␣
+  - RIGHT ALT
+  - RIGHT GUI
+  - $$mdi:apple-keyboard-control$$
+  CMKDH:
+  - Esc
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ⌦
+  - ↹
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - \
+  - CAPSLOCK
+  - A
+  - R
+  - S
+  - {t: T, h: RAI}
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''''
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - MUTE
+  - MUTE
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - RSHIFT
   - LEFT CONTROL
   - LEFT GUI
   - LEFT ALT
@@ -62,37 +123,37 @@ layers:
   - RIGHT GUI
   - RIGHT CONTROL
   LOW:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - '&studio_unlock'
   - BT CLR
   - BT 1
   - BT 2
   - BT 3
   - BT 4
-  - {t: ▽, type: trans}
+  - INSERT
   - Home
   - ↑
   - End
   - '-'
   - '='
   - Reset
+  - LEFT GUI
+  - LEFT ALT
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
   - ←
   - ↓
   - →
@@ -106,10 +167,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - PAGE DOWN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -183,3 +244,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [0, 11]
+  k: {t: CMKDH, h: toggle}
