@@ -13,18 +13,18 @@ layers:
   - O
   - P
   - ⌦
-  - {t: Esc, h: LEFT CONTROL}
+  - {t: Esc, h: LEFT ALT}
   - A
-  - {t: S, h: Alt+LEFT CONTROL}
-  - {t: D, h: Alt+LEFT SHIFT}
-  - {t: F, h: RAI}
-  - G
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
+  - {t: G, h: RAI}
   - H
   - {t: I, s: LEFT ARROW}
   - {t: K, s: DOWN ARROW}
   - {t: L, s: RIGHT ARROW}
   - ;
-  - {t: '''', h: RIGHT CONTROL}
+  - {t: '''', h: RIGHT ALT}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -38,10 +38,10 @@ layers:
   - /
   - {t: \, h: RSHIFT}
   - LWIN
-  - {t: ↹, h: LEFT ALT}
+  - {t: ↹, h: LEFT CONTROL}
   - {t: ⏎, h: LOW}
   - {t: BACKSPACE, h: RAI}
-  - {t: ␣, h: RIGHT ALT}
+  - {t: ␣, h: RIGHT CONTROL}
   - RWIN
   Colemak:
   - Esc
@@ -146,8 +146,8 @@ layers:
   - '6'
   - '7'
   - '8'
-  - {t: '9', type: held}
-  - '0'
+  - '9'
+  - {t: '0', type: held}
   - F8
   - '4'
   - '5'
