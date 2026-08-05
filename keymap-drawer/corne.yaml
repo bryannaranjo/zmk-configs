@@ -9,7 +9,7 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, s: UP ARROW}
   - O
   - P
   - ⌦
@@ -20,9 +20,9 @@ layers:
   - {t: F, h: RAI}
   - G
   - H
-  - J
-  - K
-  - L
+  - {t: I, s: LEFT ARROW}
+  - {t: K, s: DOWN ARROW}
+  - {t: L, s: RIGHT ARROW}
   - ;
   - {t: '''', h: RIGHT CONTROL}
   - $$mdi:apple-keyboard-shift$$
