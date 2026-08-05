@@ -78,8 +78,8 @@
             //                    | TAB | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&kp ESC               &kp Q  &kp W                   &kp E                 &kp R             &kp T        &kp Y            &kp U                &up_arrow    &kp O         &kp P     &kp DEL
-&mt LEFT_CONTROL TAB  &kp A  &mt LA(LEFT_CONTROL) S  &mt LA(LEFT_SHIFT) D  &lt 3 F           &kp G        &kp H            &left_arrow          &down_arrow  &right_arrow  &kp SEMI  &mt RIGHT_CONTROL SQT
+&kp TAB               &kp Q  &kp W                   &kp E                 &kp R             &kp T        &kp Y            &kp U                &up_arrow    &kp O         &kp P     &kp DEL
+&mt LEFT_CONTROL ESC  &kp A  &mt LA(LEFT_CONTROL) S  &mt LA(LEFT_SHIFT) D  &lt 3 F           &kp G        &kp H            &left_arrow          &down_arrow  &right_arrow  &kp SEMI  &mt RIGHT_CONTROL SQT
 &kp LSHFT             &kp Z  &kp X                   &kp C                 &kp V             &kp B        &kp N            &kp M                &kp COMMA    &kp DOT       &kp FSLH  &mt RSHIFT BACKSLASH
                                                      &kp LWIN              &mt LEFT_ALT TAB  &lt 2 RET    &lt 3 BACKSPACE  &mt RIGHT_ALT SPACE  &kp RWIN
             >;

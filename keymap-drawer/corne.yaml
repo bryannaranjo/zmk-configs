@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   BAS:
-  - Esc
+  - ↹
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - ⌦
-  - {t: ↹, h: LEFT CONTROL}
+  - {t: Esc, h: LEFT CONTROL}
   - A
   - {t: S, h: Alt+LEFT CONTROL}
   - {t: D, h: Alt+LEFT SHIFT}
