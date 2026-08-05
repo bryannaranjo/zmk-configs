@@ -15,8 +15,8 @@ layers:
   - ⌦
   - {t: ↹, h: LEFT CONTROL}
   - A
-  - S
-  - D
+  - {t: S, h: Alt+LEFT CONTROL}
+  - {t: D, h: Alt+LEFT SHIFT}
   - {t: F, h: RAI}
   - G
   - H
