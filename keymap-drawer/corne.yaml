@@ -109,8 +109,8 @@ layers:
   - ←
   - ↓
   - →
-  - '{'
-  - '}'
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
@@ -121,8 +121,8 @@ layers:
   - {t: ▽, type: trans}
   - (
   - )
-  - '['
-  - ']'
+  - '{'
+  - '}'
   - RGB COLOR HSB(297,86,35)
   - {t: ▽, type: trans}
   - {type: held}
