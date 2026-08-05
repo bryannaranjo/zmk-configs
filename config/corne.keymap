@@ -63,6 +63,13 @@
             mods = <(MOD_LALT)>;
             keep-mods = <(MOD_LALT)>;
         };
+
+        TD_Esc: TD_Esc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_ESC";
+            #binding-cells = <0>;
+            bindings = <&kp TAB>, <&kp ESC>;
+        };
     };
 
     keymap {
@@ -78,10 +85,10 @@
             //                    | TAB | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q  &kp W           &kp E               &kp R                 &kp T        &kp Y            &kp U                    &up_arrow    &kp O         &kp P     &kp DEL
-&mt LEFT_ALT ESC  &kp A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F      &lt 3 G      &kp H            &left_arrow              &down_arrow  &right_arrow  &kp SEMI  &mt RIGHT_ALT SQT
-&kp LSHFT         &kp Z  &kp X           &kp C               &kp V                 &kp B        &kp N            &kp M                    &kp COMMA    &kp DOT       &kp FSLH  &mt RSHIFT BACKSLASH
-                                         &kp LWIN            &mt LEFT_CONTROL TAB  &lt 2 RET    &lt 3 BACKSPACE  &mt RIGHT_CONTROL SPACE  &kp RWIN
+&TD_Esc       &kp Q  &kp W           &kp E               &kp R                 &kp T        &kp Y            &kp U                    &up_arrow    &kp O         &kp P     &kp DEL
+&kp LEFT_ALT  &kp A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F      &lt 3 G      &kp H            &left_arrow              &down_arrow  &right_arrow  &kp SEMI  &mt RIGHT_ALT SQT
+&kp LSHFT     &kp Z  &kp X           &kp C               &kp V                 &kp B        &kp N            &kp M                    &kp COMMA    &kp DOT       &kp FSLH  &mt RSHIFT BACKSLASH
+                                     &kp LWIN            &mt LEFT_CONTROL TAB  &lt 2 RET    &lt 3 BACKSPACE  &mt RIGHT_CONTROL SPACE  &kp RWIN
             >;
         };
 
