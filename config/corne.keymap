@@ -37,7 +37,7 @@
         left_arrow: left_arrow {
             compatible = "zmk,behavior-mod-morph";
             label = "LEFT_ARROW";
-            bindings = <&kp I>, <&kp LEFT_ARROW>;
+            bindings = <&kp J>, <&kp LEFT_ARROW>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
