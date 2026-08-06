@@ -27,9 +27,9 @@ layers:
   - \
   - CAPSLOCK
   - A
-  - S
-  - D
-  - {t: F, h: RAI}
+  - {t: S, h: LEFT CONTROL}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
   - {t: I, s: UP ARROW}
@@ -212,7 +212,7 @@ layers:
   - '!'
   - '@'
   - '#'
-  - {t: $, type: held}
+  - $
   - Sft+.
   - {t: ▽, type: trans}
   - '4'
@@ -239,7 +239,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⏎
+  - {t: ⏎, type: held}
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
