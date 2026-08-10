@@ -32,7 +32,7 @@ layers:
   - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: I, s: UP ARROW}
+  - {t: J, s: UP ARROW}
   - {t: K, s: UP ARROW}
   - {t: L, s: UP ARROW}
   - ;
