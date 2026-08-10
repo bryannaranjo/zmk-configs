@@ -56,8 +56,8 @@ layers:
   - LEFT ALT
   - ↹
   - {t: ⏎, h: LOW}
-  - ␣
   - BACKSPACE
+  - ␣
   - RIGHT ALT
   - RIGHT GUI
   - $$mdi:apple-keyboard-control$$
