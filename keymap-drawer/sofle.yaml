@@ -32,9 +32,9 @@ layers:
   - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: J, s: UP ARROW}
-  - {t: K, s: UP ARROW}
-  - {t: L, s: UP ARROW}
+  - {t: J, s: LEFT ARROW}
+  - {t: K, s: DOWN ARROW}
+  - {t: L, s: RIGHT ARROW}
   - ;
   - ''''
   - LEFT SHIFT

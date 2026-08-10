@@ -35,7 +35,7 @@
         leftarrow_J: leftarrow_J {
             compatible = "zmk,behavior-mod-morph";
             label = "LEFTARROW_J";
-            bindings = <&kp J>, <&kp UP_ARROW>;
+            bindings = <&kp J>, <&kp LEFT_ARROW>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
@@ -45,7 +45,7 @@
         rightarrow_L: rightarrow_L {
             compatible = "zmk,behavior-mod-morph";
             label = "RIGHTARROW_L";
-            bindings = <&kp L>, <&kp UP_ARROW>;
+            bindings = <&kp L>, <&kp RIGHT_ARROW>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
@@ -55,7 +55,7 @@
         downarrow_K: downarrow_K {
             compatible = "zmk,behavior-mod-morph";
             label = "DOWNARROW_K";
-            bindings = <&kp K>, <&kp UP_ARROW>;
+            bindings = <&kp K>, <&kp DOWN_ARROW>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
