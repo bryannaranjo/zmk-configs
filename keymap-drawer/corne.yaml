@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   BAS:
-  - '&TD_EscTab'
+  - ↹
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - ⌦
-  - LEFT ALT
+  - ESCAPE
   - A
   - S
   - {t: D, h: LEFT ALT}
@@ -24,7 +24,7 @@ layers:
   - {t: K, s: DOWN ARROW}
   - {t: L, s: RIGHT ARROW}
   - ;
-  - {t: '''', h: RIGHT ALT}
+  - ''''
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -37,14 +37,14 @@ layers:
   - .
   - /
   - {t: \, h: RSHIFT}
-  - LWIN
-  - {t: ↹, h: LEFT CONTROL}
+  - LEFT CONTROL
+  - {t: ↹, h: LEFT ALT}
   - {t: ⏎, h: LOW}
   - {t: BACKSPACE, h: RAI}
-  - {t: ␣, h: RIGHT CONTROL}
+  - {t: ␣, h: RIGHT ALT}
   - RWIN
   Colemak:
-  - Esc
+  - ↹
   - Q
   - W
   - F
@@ -56,7 +56,7 @@ layers:
   - Y
   - ;
   - ⌦
-  - {t: ↹, h: LEFT CONTROL}
+  - Esc
   - A
   - R
   - S
@@ -67,7 +67,7 @@ layers:
   - E
   - I
   - O
-  - {t: '''', h: RIGHT CONTROL}
+  - ''''
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -80,7 +80,7 @@ layers:
   - .
   - /
   - {t: \, h: RSHIFT}
-  - LWIN
+  - LEFT CONTROL
   - {t: ↹, h: LEFT ALT}
   - {t: ⏎, h: LOW}
   - {t: BACKSPACE, h: RAI}
