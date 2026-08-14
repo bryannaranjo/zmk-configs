@@ -15,7 +15,7 @@ layers:
   - ⌦
   - ESCAPE
   - A
-  - S
+  - {t: S, h: LEFT CONTROL}
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT SHIFT}
   - {t: G, h: RAI}
