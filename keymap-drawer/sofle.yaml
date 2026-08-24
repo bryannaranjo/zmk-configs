@@ -30,8 +30,8 @@ layers:
   - {t: S, h: LEFT CONTROL}
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT SHIFT}
-  - G
-  - H
+  - {t: G, h: RAI}
+  - {t: H, h: RAI}
   - {t: J, s: LEFT ARROW}
   - {t: K, s: DOWN ARROW}
   - {t: L, s: RIGHT ARROW}
@@ -212,8 +212,8 @@ layers:
   - '!'
   - '@'
   - '#'
-  - {t: $, type: held}
-  - Sft+.
+  - $
+  - {t: Sft+., type: held}
   - {t: ▽, type: trans}
   - '4'
   - '5'
