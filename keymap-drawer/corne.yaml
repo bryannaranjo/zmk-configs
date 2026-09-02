@@ -40,8 +40,8 @@ layers:
   - LEFT CONTROL
   - {t: ↹, h: LEFT ALT}
   - {t: ⏎, h: LOW}
-  - {t: BACKSPACE, h: RAI}
-  - {t: ␣, h: RIGHT ALT}
+  - {t: BACKSPACE, h: toggle}
+  - {t: ␣, h: RAI}
   - RWIN
   Colemak:
   - ↹
