@@ -40,7 +40,7 @@ layers:
   - LEFT CONTROL
   - {t: ↹, h: LEFT ALT}
   - {t: ⏎, h: LOW}
-  - {t: BACKSPACE, h: toggle}
+  - BACKSPACE
   - {t: ␣, h: RAI}
   - RWIN
   Colemak:
