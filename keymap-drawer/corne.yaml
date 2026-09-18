@@ -126,7 +126,7 @@ layers:
   - RGB COLOR HSB(297,86,35)
   - {t: ▽, type: trans}
   - {type: held}
-  - BAS
+  - RAI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   RAI:
@@ -136,40 +136,40 @@ layers:
   - '3'
   - '4'
   - '5'
-  - F7
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - F1
-  - F2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Caps Lock
   - '6'
   - '7'
   - '8'
   - '9'
   - {t: '0', type: held}
-  - F8
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
-  - F3
-  - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT SHIFT
   - '-'
   - '='
   - '['
   - ']'
   - \
-  - F9
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
-  - F5
-  - F6
+  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - LEFT ALT
-  - BAS
-  - ⏎
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
   - KP DOT
   Media:
