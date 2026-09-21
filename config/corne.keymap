@@ -64,9 +64,9 @@
             keep-mods = <(MOD_LALT)>;
         };
 
-        DT_Esc: DT_Esc {
+        DT_TabEsc: DT_TabEsc {
             compatible = "zmk,behavior-tap-dance";
-            label = "DT_ESC";
+            label = "DT_TABESC";
             #binding-cells = <0>;
             bindings = <&kp TAB>, <&kp ESC>;
 
@@ -102,10 +102,10 @@
             //                    | TAB | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&DT_Esc    &kp Q                &kp W            &kp E              &kp R             &kp T        &kp Y          &kp U        &kp I      &kp O    &kp P     &kp DEL
-&kp CLCK   &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_SHIFT D  &HML LEFT_GUI F   &lt 3 G      &kp H          &kp J        &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z                &kp X            &kp C              &kp V             &kp B        &kp N          &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BACKSLASH
-                                                 &kp LEFT_CONTROL   &mt LEFT_ALT TAB  &lt 2 RET    &kp BACKSPACE  &lt 3 SPACE  &kp RWIN
+&DT_TabEsc  &kp Q                &kp W            &kp E              &kp R             &kp T        &kp Y          &kp U        &kp I      &kp O    &kp P     &kp DEL
+&kp ESC     &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_SHIFT D  &HML LEFT_GUI F   &lt 3 G      &kp H          &kp J        &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT   &kp Z                &kp X            &kp C              &kp V             &kp B        &kp N          &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BACKSLASH
+                                                  &kp LEFT_CONTROL   &mt LEFT_ALT TAB  &lt 2 RET    &kp BACKSPACE  &lt 3 SPACE  &kp RWIN
             >;
         };
 
