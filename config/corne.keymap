@@ -64,9 +64,9 @@
             keep-mods = <(MOD_LALT)>;
         };
 
-        TD_EscTab: TD_EscTab {
+        DT_Esc: DT_Esc {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_ESCTAB";
+            label = "DT_ESC";
             #binding-cells = <0>;
             bindings = <&kp TAB>, <&kp ESC>;
 
@@ -102,8 +102,8 @@
             //                    | TAB | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&kp ESC    &kp Q                &kp W            &kp E              &kp R             &kp T        &kp Y          &kp U        &kp I      &kp O    &kp P     &kp DEL
-&kp TAB    &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_SHIFT D  &HML LEFT_GUI F   &lt 3 G      &kp H          &kp J        &kp K      &kp L    &kp SEMI  &kp APOS
+&DT_Esc    &kp Q                &kp W            &kp E              &kp R             &kp T        &kp Y          &kp U        &kp I      &kp O    &kp P     &kp DEL
+&kp CLCK   &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_SHIFT D  &HML LEFT_GUI F   &lt 3 G      &kp H          &kp J        &kp K      &kp L    &kp SEMI  &kp APOS
 &kp LSHFT  &kp Z                &kp X            &kp C              &kp V             &kp B        &kp N          &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BACKSLASH
                                                  &kp LEFT_CONTROL   &mt LEFT_ALT TAB  &lt 2 RET    &kp BACKSPACE  &lt 3 SPACE  &kp RWIN
             >;
