@@ -70,7 +70,7 @@
             #binding-cells = <0>;
             bindings = <&kp TAB>, <&kp ESC>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <350>;
         };
 
         HML: HML {
