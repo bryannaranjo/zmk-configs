@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - ⌦
-  - Esc
+  - {t: Esc, h: LEFT CONTROL}
   - A
   - S
   - D
@@ -37,8 +37,8 @@ layers:
   - .
   - /
   - {t: \, h: RSHIFT}
-  - LEFT ALT
-  - {t: ↹, h: LEFT CONTROL}
+  - LEFT GUI
+  - {t: ↹, h: LEFT ALT}
   - {t: ⏎, h: LOW}
   - BACKSPACE
   - {t: ␣, h: RAI}
@@ -99,7 +99,7 @@ layers:
   - End
   - '-'
   - '='
-  - {t: ▽, type: trans}
+  - BT CLR
   - LEFT CONTROL
   - LEFT ALT
   - LEFT SHIFT
@@ -111,7 +111,7 @@ layers:
   - →
   - '['
   - ']'
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
   - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
