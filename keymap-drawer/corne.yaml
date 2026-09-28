@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - ⌦
-  - {t: Esc, h: LEFT GUI}
+  - {t: Esc, h: LEFT CONTROL}
   - A
   - S
   - D
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - {t: '''', h: RIGHT CONTROL}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
