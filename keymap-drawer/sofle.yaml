@@ -21,20 +21,20 @@ layers:
   - T
   - Y
   - U
-  - {t: I, s: UP ARROW}
+  - I
   - O
   - P
   - \
   - CAPSLOCK
   - A
-  - {t: S, h: LEFT CONTROL}
-  - {t: D, h: LEFT ALT}
-  - {t: F, h: LEFT SHIFT}
-  - {t: G, h: RAI}
-  - {t: H, h: RAI}
-  - {t: J, s: LEFT ARROW}
-  - {t: K, s: DOWN ARROW}
-  - {t: L, s: RIGHT ARROW}
+  - S
+  - D
+  - {t: F, h: RAI}
+  - G
+  - H
+  - {t: J, h: LOW}
+  - K
+  - L
   - ;
   - ''''
   - LEFT SHIFT
@@ -57,7 +57,7 @@ layers:
   - ↹
   - {t: ⏎, h: LOW}
   - BACKSPACE
-  - ␣
+  - {t: ␣, h: RAI}
   - RIGHT ALT
   - RIGHT GUI
   - $$mdi:apple-keyboard-control$$
@@ -154,7 +154,7 @@ layers:
   - LEFT SHIFT
   - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
   - PAGE UP
-  - ←
+  - {t: ←, type: held}
   - ↓
   - →
   - '['
@@ -177,7 +177,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,8 +212,8 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $
-  - {t: Sft+., type: held}
+  - {t: $, type: held}
+  - Sft+.
   - {t: ▽, type: trans}
   - '4'
   - '5'
