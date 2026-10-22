@@ -148,8 +148,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp N5           &kp NUMBER_6  &kp N7   &kp N8  &kp N9  &kp N0   &trans
-&kp CAPS        &kp F1        &kp F2        &kp F3            &kp F4             &kp F5           &kp F6        &kp F7   &kp F8  &kp F9  &kp F10  &trans
+&kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp N5           &kp NUMBER_6  &kp N7   &kp N8  &kp N9  &kp N0   &kp PLUS
+&kp CAPS        &kp F1        &kp F2        &kp F3            &kp F4             &kp F5           &kp F6        &kp F7   &kp F8  &kp F9  &kp F10  &kp ENTER
 &kp LEFT_SHIFT  &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp F11       &kp F12  &trans  &trans  &trans   &kp RIGHT_SHIFT
                                             &trans            &trans             &trans           &trans        &trans   &trans
             >;
