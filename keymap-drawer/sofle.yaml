@@ -117,8 +117,8 @@ layers:
   - LEFT ALT
   - ↹
   - {t: ⏎, h: LOW}
-  - {t: BACKSPACE, h: RAI}
-  - ␣
+  - BACKSPACE
+  - {t: ␣, h: RAI}
   - RIGHT ALT
   - RIGHT GUI
   - RIGHT CONTROL
